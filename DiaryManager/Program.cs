@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            // string pathFile = Path.Combine(Environment.CurrentDirectory, "diary.txt");
-             string pathFile = "../../../diary.txt";
+             string pathFile = "../../../mydiary.txt";
             var diary = new DailyDiary(pathFile);
             bool running = true;
 
