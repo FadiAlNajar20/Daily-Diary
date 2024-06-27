@@ -36,7 +36,7 @@ namespace DiaryManager
                 }
                 else
                 {
-                    Console.WriteLine($"Skipping invalid line(s): {lines[i]}"); // Debugging info
+                    Console.WriteLine($"Invalid line: {lines[i]}"); 
                 }
             }
             return entries;
